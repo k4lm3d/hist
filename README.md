@@ -31,7 +31,7 @@ deploy:
   message: "Site updated {{ now('YYYY-MM-DD HH:mm:ss') }}"
 ```
 
-Then, create a `workflow` folder inside `.github` directory and `pages.yml` file inside it. Then, copy and paste the code below.
+Then, create a `workflows` folder inside `.github` directory and `pages.yml` file inside it. Then, copy and paste the code below.
 
 ```yml
 name: Pages
